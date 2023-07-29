@@ -1,2 +1,2 @@
 # cancerpredict
-convolutional neural network (CNN) to identify metastatic cancer 
+The objective is to create a convolutional neural network (CNN) to identify metastatic cancer in small image patches taken from larger digital pathology scans. CNN will classify the images from the dataset into two classes, i.e. having cancer and not having cancer. The dataset consists of microscopic images of lymph node tissue. Each image has a resolution of 96x96 pixels, and the task will be to identify metastatic cancer tissue in a 32x32 pixel center region of the image. The identification of at least 1 pixel of tumor tissue would effectively label the image as positive. The train dataset consists of 220,025 images, while the test dataset contains 57,468 images.
